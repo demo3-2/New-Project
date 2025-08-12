@@ -15,7 +15,7 @@ def divide():
     quotient_result = num1 / num2
     return quotient_result
 
-print("Addition:", add())
-print("Multiplication:", multiply())
-print("Division:", divide())
+print(f"Sum for numbers {num1} and {num2}: {add()}")
+print(f"Product for numbers {num1} and {num2}: {multiply()}")
+print(f"Quotient for numbers {num1} and {num2}: {divide()}")
 print("-----------------")
